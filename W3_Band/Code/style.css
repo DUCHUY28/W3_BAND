@@ -215,13 +215,15 @@ height: 39.5px;
 }
 
 .Tour-section .Row-padding {
-    margin-top: 40px;
+    margin-top: 35px;
     display: flex;
     justify-content: space-around;
 }
 .Tour-section .Row-Review {
-    width: 261.33px;
+    width: 260px;
     height: 183.99px;
+    padding: 0 10px;
+    
 }
 .Tour-section .Row-Review img {
     width: 245.33px;
@@ -231,14 +233,141 @@ height: 39.5px;
     display: block;
 }
 .Tour-section .Row-Review h2,
-.Tour-section .Row-Review p {
-    
+.Tour-section .Row-Review p,
+.Tour-section .Row-Review .btn
+ {
+    margin-left: 15px;
 }
 
 .Tour-section .note {
     width: 245.33px;
+    height: 204px;
     background-color: #fff;
     margin-left: 50%;
-    transform: translate(-50%);
-    
+    transform: translate(-50%);  
+    position: relative;
 }
+.Tour-section .name-city {
+    position: absolute;
+    top: 15px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.Tour-section .opaci {
+    position: absolute;
+    top: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+.Tour-section .Row-Review  p {
+    position:absolute;
+    top:90px;
+}
+.Tour-section .Row-Review .btn {
+    border: none;
+    position: absolute;
+    top: 150px;
+    padding: 8px 16px;
+    background-color: black;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0 10px 0 rgba(64, 61, 61, 0.5);/*tạo bóng*/
+    transition: .4s;
+}
+/* nhấn chuột vào đổi màu background< :active>*/
+.Tour-section .Row-Review .btn:active {
+    box-shadow: none;
+    transform: translateY(10px); /*hiệu ứng di chuyển*/
+
+}
+.Tour-section .Row-Review .btn:hover{
+    /* background-color: #ccc; */
+}
+
+.Contact-section {
+    width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Contact-section .Contact {
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+.Contact-section .Contact-slogan {
+    margin-top: 25px;
+    text-align: center;
+    font-style: italic;
+    opacity: 0.5;
+    font-size: 15px;
+}
+.Contact-section .Contact-address {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.Contact-section .Contact-left {
+    width:383.99px;
+    height: 81px;
+    padding:0 8px;
+}
+.Contact-section .Contact-left i {
+    font-size: 20px;
+}
+.Contact-section .Contact-right {
+    width: 383.99px;
+    height: 160px;
+}
+.Contact-address .Contact-right {
+    padding: 0 8px;
+}
+.Contact-address .Contact-right ::placeholder{
+    font-size: 15px;
+   padding-left: 10px;
+}
+.Contact-address .Contact-btn {
+    float: right;
+    font-size: 17px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 16px!important;
+    cursor: pointer;
+    border-radius:4px ;
+    box-shadow: 0 10px 0 rgba(64, 61, 61, 0.5);
+    transition: .5s;
+}
+.Contact-address .Contact-btn:active {
+    box-shadow: none;
+    transform: translateY(10px);
+}
+
+#footer {
+    height: 200px;
+}
+#footer .footer-icon {
+    margin-top: 60px;
+    margin-left: 50%;
+    transform: translate(-11%);
+    font-size: 20px;
+    opacity:0.5;
+}
+#footer p {
+    margin-top: 20px;
+    text-align: center;
+    color: #000;
+}
+#footer a {
+    text-decoration: none;
+}
+
+ 
+
+
+
+
+
