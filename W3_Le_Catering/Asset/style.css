@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+   display: fixed;
+   height: 54.5px;
+}
+#header .header_left {
+    line-height: 54.5px;
+    margin-left: 30px;
+    display: inline-block;
+}
+#header .header_left a {
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+#header .header_left a:hover{
+    background-color: rgb(224, 219, 219);
+}
+
+#header .header_right {
+    float: right;
+    margin-right: 30px;
+    line-height: 54.5px;
+}
+
+#header .header_right a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 16px;
+}
+#header .header_right a:hover {
+background-color: rgb(224, 219, 219);
+}
+
